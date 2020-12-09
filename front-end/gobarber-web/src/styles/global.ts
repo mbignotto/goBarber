@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 
+import 'react-day-picker/lib/style.css';
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -20,7 +22,7 @@ export default createGlobalStyle`
   }
 
   h1, h2, h3, h4, h5, h6, strong {
-      font-weight: 500;
+    font-weight: 500;
   }
 
   button {
